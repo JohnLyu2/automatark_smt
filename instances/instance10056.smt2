@@ -1,0 +1,10 @@
+(declare-const X String)
+; /\x2eskm([\?\x5c\x2f]|$)/smiU
+(assert (not (str.in_re X (re.++ (str.to_re "/.skm") (re.union (str.to_re "?") (str.to_re "\u{5c}") (str.to_re "/")) (str.to_re "/smiU\u{a}")))))
+; ^-?\d+([^.,])?$
+(assert (not (str.in_re X (re.++ (re.opt (str.to_re "-")) (re.+ (re.range "0" "9")) (re.opt (re.union (str.to_re ".") (str.to_re ","))) (str.to_re "\u{a}")))))
+; ^[A-Z]$
+(assert (not (str.in_re X (re.++ (re.range "A" "Z") (str.to_re "\u{a}")))))
+; ^(\d){8}$
+(assert (str.in_re X (re.++ ((_ re.loop 8 8) (re.range "0" "9")) (str.to_re "\u{a}"))))
+(check-sat)

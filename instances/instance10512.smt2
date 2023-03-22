@@ -1,0 +1,6 @@
+(declare-const X String)
+; toetbuviaebe\x2feqv\.bvvuplink\x2Eco\x2Ekrwv=Host\x3A
+(assert (str.in_re X (str.to_re "toetbuviaebe/eqv.bvvuplink.co.krwv=Host:\u{a}")))
+; download\x2Eeblocs\x2EcomHost\x3AReferer\x3A
+(assert (str.in_re X (str.to_re "download.eblocs.comHost:Referer:\u{a}")))
+(check-sat)

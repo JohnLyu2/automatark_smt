@@ -1,0 +1,6 @@
+(declare-const X String)
+; \?<.+?>
+(assert (str.in_re X (re.++ (str.to_re "?<") (re.+ re.allchar) (str.to_re ">\u{a}"))))
+; /filename=[^\n]*\x2emswmm/i
+(assert (str.in_re X (re.++ (str.to_re "/filename=") (re.* (re.comp (str.to_re "\u{a}"))) (str.to_re ".mswmm/i\u{a}"))))
+(check-sat)

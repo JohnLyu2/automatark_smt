@@ -1,0 +1,6 @@
+(declare-const X String)
+; /filename=[^\n]*\x2ewri/i
+(assert (not (str.in_re X (re.++ (str.to_re "/filename=") (re.* (re.comp (str.to_re "\u{a}"))) (str.to_re ".wri/i\u{a}")))))
+; ^([30|36|38]{2})([0-9]{12})$
+(assert (not (str.in_re X (re.++ ((_ re.loop 2 2) (re.union (str.to_re "3") (str.to_re "0") (str.to_re "|") (str.to_re "6") (str.to_re "8"))) ((_ re.loop 12 12) (re.range "0" "9")) (str.to_re "\u{a}")))))
+(check-sat)
