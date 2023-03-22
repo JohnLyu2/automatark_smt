@@ -5,7 +5,7 @@ This repository contains the instances and satisfiability results acquired using
 [John(Zhengyang) Lu](https://github.com/JohnLyu2) is the current maintainer of this benchmark set.
 
 
-- [1] Loris D'Antoni and Fang Wang. AutomataArk. https://github.com/lorisdanto/automatark 
+- [1] Loris D'Antoni and Fang Wang. AutomataArk. https://github.com/lorisdanto/automatark.
 - [2] Murphy Berzish, Mitja Kulczynski, Federico Mora, Florin Manea, Joel Day, Dirk Nowotka and Vijay Ganesh (2021): An SMT Solver for Regular Expressions and Linear Arithmetic over String Length, Proc. CAV 2021, LNCS.
 - [3] Murphy Berzish, Mitja Kulczynski, Federico Mora, Florin Manea, Joel Day, Dirk Nowotka and Vijay Ganesh (2021): String Theories involving Regular Membership Predicates: From Practice to Theory and Back, Proc. WORDS 2021, LNCS.
 
