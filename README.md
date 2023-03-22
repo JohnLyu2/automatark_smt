@@ -2,7 +2,7 @@
 
 This repository contains the instances and satisfiability results acquired using modern state of the art string solvers. We got valid models for 10466 instances and annotated a tendency whether an instance is satisfiable or not based on a majority vote within the accompanying results.
 
-_Zhengyang Lu_ is the current maintainer of this benchmark set.
+[John(Zhengyang) Lu](https://github.com/JohnLyu2) is the current maintainer of this benchmark set.
 
 
 - [1] Loris D'Antoni and Fang Wang. AutomataArk. https://github.com/lorisdanto/automatark 
