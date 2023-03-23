@@ -2,7 +2,9 @@
 
 This repository contains the instances and satisfiability results acquired using modern state of the art string solvers. We got valid models for 10466 instances and annotated a tendency whether an instance is satisfiable or not based on a majority vote within the accompanying results.
 
-- [1] Loris D'Antoni and Fang Wang. AutomataArk. https://github.com/lorisdanto/automatark.
-- [2] Murphy Berzish, Mitja Kulczynski, Federico Mora, Florin Manea, Joel Day, Dirk Nowotka and Vijay Ganesh (2021): An SMT Solver for Regular Expressions and Linear Arithmetic over String Length, Proc. CAV 2021, LNCS.
-- [3] Murphy Berzish, Mitja Kulczynski, Federico Mora, Florin Manea, Joel Day, Dirk Nowotka and Vijay Ganesh (2021): String Theories involving Regular Membership Predicates: From Practice to Theory and Back, Proc. WORDS 2021, LNCS.
+[1] Loris D'Antoni and Fang Wang. AutomataArk. https://github.com/lorisdanto/automatark.  
+
+[2] Murphy Berzish, Mitja Kulczynski, Federico Mora, Florin Manea, Joel Day, Dirk Nowotka and Vijay Ganesh (2021): An SMT Solver for Regular Expressions and Linear Arithmetic over String Length, Proc. CAV 2021, LNCS.  
+
+[3] Murphy Berzish, Mitja Kulczynski, Federico Mora, Florin Manea, Joel Day, Dirk Nowotka and Vijay Ganesh (2021): String Theories involving Regular Membership Predicates: From Practice to Theory and Back, Proc. WORDS 2021, LNCS.
 
