@@ -10,3 +10,5 @@
 ; download\x2Eeblocs\x2EcomHost\x3AReferer\x3A
 (assert (not (str.in_re X (str.to_re "download.eblocs.comHost:Referer:\u{a}"))))
 (check-sat)
+
+(exit)

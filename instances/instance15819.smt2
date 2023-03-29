@@ -6,3 +6,5 @@
 ; JMailReportgpstool\x2eglobaladserver\x2ecom
 (assert (not (str.in_re X (str.to_re "JMailReportgpstool.globaladserver.com\u{a}"))))
 (check-sat)
+
+(exit)

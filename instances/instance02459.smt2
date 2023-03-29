@@ -2,3 +2,5 @@
 ; www\x2Erichfind\x2EcomHost\x3A
 (assert (str.in_re X (str.to_re "www.richfind.comHost:\u{a}")))
 (check-sat)
+
+(exit)

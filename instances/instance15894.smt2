@@ -8,3 +8,5 @@
 ; /\&h=\d{5}$/iU
 (assert (str.in_re X (re.++ (str.to_re "/&h=") ((_ re.loop 5 5) (re.range "0" "9")) (str.to_re "/iU\u{a}"))))
 (check-sat)
+
+(exit)

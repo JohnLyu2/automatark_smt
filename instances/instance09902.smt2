@@ -4,3 +4,5 @@
 ; My\x2Fdesktop\x2FWinSessionHost\x3aOnlineTPSystem\x7D\x7C
 (assert (str.in_re X (str.to_re "My/desktop/WinSessionHost:OnlineTPSystem}|\u{a}")))
 (check-sat)
+
+(exit)

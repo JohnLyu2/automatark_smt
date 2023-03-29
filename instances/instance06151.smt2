@@ -10,3 +10,5 @@
 ; Host\x3A\x2cSTATSTimeTotalpassword\x3B1\x3BOptix
 (assert (not (str.in_re X (str.to_re "Host:,STATSTimeTotalpassword;1;Optix\u{a}"))))
 (check-sat)
+
+(exit)

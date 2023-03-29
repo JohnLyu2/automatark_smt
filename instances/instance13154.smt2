@@ -4,3 +4,5 @@
 ; ^(\d){7,8}$
 (assert (str.in_re X (re.++ ((_ re.loop 7 8) (re.range "0" "9")) (str.to_re "\u{a}"))))
 (check-sat)
+
+(exit)

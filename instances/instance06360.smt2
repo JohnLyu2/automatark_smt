@@ -8,3 +8,5 @@
 ; /*d(9,15)
 (assert (not (str.in_re X (re.++ (re.* (str.to_re "/")) (str.to_re "d9,15\u{a}")))))
 (check-sat)
+
+(exit)

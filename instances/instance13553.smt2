@@ -8,3 +8,5 @@
 ; DesktopBladeclient=wwwHello\x2Exmlns\x3A
 (assert (not (str.in_re X (str.to_re "DesktopBladeclient=wwwHello.xmlns:\u{a}"))))
 (check-sat)
+
+(exit)

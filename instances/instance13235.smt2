@@ -6,3 +6,5 @@
 ; Test\d+DesktopAddressIDENTIFY666User-Agent\x3A\x5BStatic
 (assert (not (str.in_re X (re.++ (str.to_re "Test") (re.+ (re.range "0" "9")) (str.to_re "DesktopAddressIDENTIFY666User-Agent:[Static\u{a}")))))
 (check-sat)
+
+(exit)

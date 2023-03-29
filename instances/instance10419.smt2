@@ -8,3 +8,5 @@
 ; MyverToolbarTrojanControlHost\x3A
 (assert (str.in_re X (str.to_re "MyverToolbarTrojanControlHost:\u{a}")))
 (check-sat)
+
+(exit)

@@ -10,3 +10,5 @@
 ; www\x2Eonlinecasinoextra\x2EcomWindows
 (assert (not (str.in_re X (str.to_re "www.onlinecasinoextra.comWindows\u{a}"))))
 (check-sat)
+
+(exit)

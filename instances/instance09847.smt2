@@ -10,3 +10,5 @@
 ; DigExtNetBus\x5BStatic
 (assert (str.in_re X (str.to_re "DigExtNetBus[Static\u{a}")))
 (check-sat)
+
+(exit)

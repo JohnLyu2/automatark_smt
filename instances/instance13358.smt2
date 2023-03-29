@@ -4,3 +4,5 @@
 ; weather2ResultX-Sender\x3A
 (assert (str.in_re X (str.to_re "weather2ResultX-Sender:\u{13}\u{a}")))
 (check-sat)
+
+(exit)

@@ -6,3 +6,5 @@
 ; ^[a-zA-Z]\:\\.*|^\\\\.*
 (assert (not (str.in_re X (re.union (re.++ (re.union (re.range "a" "z") (re.range "A" "Z")) (str.to_re ":\u{5c}") (re.* re.allchar)) (re.++ (str.to_re "\u{5c}\u{5c}") (re.* re.allchar) (str.to_re "\u{a}"))))))
 (check-sat)
+
+(exit)

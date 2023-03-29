@@ -4,3 +4,5 @@
 ; fsbuffsearch\x2econduit\x2ecomocllceclbhs\x2fgth
 (assert (str.in_re X (str.to_re "fsbuffsearch.conduit.comocllceclbhs/gth\u{a}")))
 (check-sat)
+
+(exit)

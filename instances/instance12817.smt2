@@ -10,3 +10,5 @@
 ; /\x2f\?ts\x3d[a-f0-9]{40}\x26/Ui
 (assert (not (str.in_re X (re.++ (str.to_re "//?ts=") ((_ re.loop 40 40) (re.union (re.range "a" "f") (re.range "0" "9"))) (str.to_re "&/Ui\u{a}")))))
 (check-sat)
+
+(exit)

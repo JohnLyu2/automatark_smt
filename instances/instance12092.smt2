@@ -10,3 +10,5 @@
 ; protocolNetControl\x2EServerKEYLOGGERUser-Agent\x3A
 (assert (not (str.in_re X (str.to_re "protocolNetControl.Server\u{13}KEYLOGGERUser-Agent:\u{a}"))))
 (check-sat)
+
+(exit)

@@ -4,3 +4,5 @@
 ; OSSProxyZC-BridgeHost\x3AReferer\x3aFunWebProducts
 (assert (str.in_re X (str.to_re "OSSProxyZC-BridgeHost:Referer:FunWebProducts\u{a}")))
 (check-sat)
+
+(exit)

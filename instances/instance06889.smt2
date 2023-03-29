@@ -8,3 +8,5 @@
 ; config\x2E180solutions\x2Ecom\dStableWeb-MailUser-Agent\x3A
 (assert (str.in_re X (re.++ (str.to_re "config.180solutions.com") (re.range "0" "9") (str.to_re "StableWeb-MailUser-Agent:\u{a}"))))
 (check-sat)
+
+(exit)

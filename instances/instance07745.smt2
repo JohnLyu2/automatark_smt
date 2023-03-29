@@ -6,3 +6,5 @@
 ; /\x2fx\x2f[0-9a-z]{8,10}\x2f[0-9a-f]{32}\x2fAA\x2f0$/U
 (assert (not (str.in_re X (re.++ (str.to_re "//x/") ((_ re.loop 8 10) (re.union (re.range "0" "9") (re.range "a" "z"))) (str.to_re "/") ((_ re.loop 32 32) (re.union (re.range "0" "9") (re.range "a" "f"))) (str.to_re "/AA/0/U\u{a}")))))
 (check-sat)
+
+(exit)

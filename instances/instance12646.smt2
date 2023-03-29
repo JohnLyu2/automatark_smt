@@ -8,3 +8,5 @@
 ; 32e3432ew+
 (assert (str.in_re X (re.++ (str.to_re "32e3432e") (re.+ (str.to_re "w")) (str.to_re "\u{a}"))))
 (check-sat)
+
+(exit)

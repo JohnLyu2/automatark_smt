@@ -6,3 +6,5 @@
 ; /\?new\=.*?\:.*?\&v\=\d\.\d\.\d\&av\=/U
 (assert (not (str.in_re X (re.++ (str.to_re "/?new=") (re.* re.allchar) (str.to_re ":") (re.* re.allchar) (str.to_re "&v=") (re.range "0" "9") (str.to_re ".") (re.range "0" "9") (str.to_re ".") (re.range "0" "9") (str.to_re "&av=/U\u{a}")))))
 (check-sat)
+
+(exit)

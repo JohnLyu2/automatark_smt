@@ -6,3 +6,5 @@
 ; www\x2Eeblocs\x2Ecomcorep\x2Edmcast\x2Ecom
 (assert (str.in_re X (str.to_re "www.eblocs.com\u{1b}corep.dmcast.com\u{a}")))
 (check-sat)
+
+(exit)

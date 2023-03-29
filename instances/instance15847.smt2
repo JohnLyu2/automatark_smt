@@ -8,3 +8,5 @@
 ; LogsHost\x3asearches\x2Eworldtostart\x2Ecom
 (assert (not (str.in_re X (str.to_re "LogsHost:searches.worldtostart.com\u{a}"))))
 (check-sat)
+
+(exit)

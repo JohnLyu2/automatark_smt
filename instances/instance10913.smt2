@@ -8,3 +8,5 @@
 ; /^\d{0,10}_passes_\d{1,10}\.xm/iR
 (assert (str.in_re X (re.++ (str.to_re "/") ((_ re.loop 0 10) (re.range "0" "9")) (str.to_re "_passes_") ((_ re.loop 1 10) (re.range "0" "9")) (str.to_re ".xm/iR\u{a}"))))
 (check-sat)
+
+(exit)

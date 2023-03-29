@@ -4,3 +4,5 @@
 ; User-Agent\x3a[^\n\r]*Echelon.*Blacksnprtz\x7CdialnoSearch
 (assert (str.in_re X (re.++ (str.to_re "User-Agent:") (re.* (re.union (str.to_re "\u{a}") (str.to_re "\u{d}"))) (str.to_re "Echelon") (re.* re.allchar) (str.to_re "Blacksnprtz|dialnoSearch\u{a}"))))
 (check-sat)
+
+(exit)

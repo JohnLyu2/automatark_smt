@@ -4,3 +4,5 @@
 ; /\.php\?j=1&k=[0-9](i=[0-9])?$/U
 (assert (not (str.in_re X (re.++ (str.to_re "/.php?j=1&k=") (re.range "0" "9") (re.opt (re.++ (str.to_re "i=") (re.range "0" "9"))) (str.to_re "/U\u{a}")))))
 (check-sat)
+
+(exit)

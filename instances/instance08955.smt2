@@ -8,3 +8,5 @@
 ; Subject\x3AAlexaOnline\x2521\x2521\x2521
 (assert (not (str.in_re X (str.to_re "Subject:AlexaOnline%21%21%21\u{a}"))))
 (check-sat)
+
+(exit)

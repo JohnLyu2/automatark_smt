@@ -8,3 +8,5 @@
 ; ^[A-Z]{2,4}[0-9][A-Z0-9]+$
 (assert (not (str.in_re X (re.++ ((_ re.loop 2 4) (re.range "A" "Z")) (re.range "0" "9") (re.+ (re.union (re.range "A" "Z") (re.range "0" "9"))) (str.to_re "\u{a}")))))
 (check-sat)
+
+(exit)

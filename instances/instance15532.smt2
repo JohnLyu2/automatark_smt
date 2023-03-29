@@ -4,3 +4,5 @@
 ; /\/r_autoidcnt\.asp\?mer_seq=\d[^\r\n]*\x26mac=/Ui
 (assert (str.in_re X (re.++ (str.to_re "//r_autoidcnt.asp?mer_seq=") (re.range "0" "9") (re.* (re.union (str.to_re "\u{d}") (str.to_re "\u{a}"))) (str.to_re "&mac=/Ui\u{a}"))))
 (check-sat)
+
+(exit)

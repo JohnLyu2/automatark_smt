@@ -6,3 +6,5 @@
 ; iepluginBrowsedOVNHost\x3A\x2Fproducts\x2Fspyblocs\x2F
 (assert (not (str.in_re X (str.to_re "iepluginBrowsedOVNHost:/products/spyblocs/\u{13}\u{a}"))))
 (check-sat)
+
+(exit)

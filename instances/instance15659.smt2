@@ -4,3 +4,5 @@
 ; MailerHost\x3AUser-Agent\x3A
 (assert (not (str.in_re X (str.to_re "MailerHost:User-Agent:\u{a}"))))
 (check-sat)
+
+(exit)

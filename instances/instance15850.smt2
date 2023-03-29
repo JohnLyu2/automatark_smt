@@ -10,3 +10,5 @@
 ; Subject\x3AHost\x3aHost\x3A000Filelogin_ok\x5EMiniCommand
 (assert (not (str.in_re X (str.to_re "Subject:Host:Host:000Filelogin_ok^MiniCommand\u{a}"))))
 (check-sat)
+
+(exit)

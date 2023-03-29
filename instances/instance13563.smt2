@@ -6,3 +6,5 @@
 ; Explorer\x2Fsto=notificationfind
 (assert (str.in_re X (str.to_re "Explorer/sto=notification\u{13}find\u{a}")))
 (check-sat)
+
+(exit)

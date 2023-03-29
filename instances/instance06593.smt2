@@ -8,3 +8,5 @@
 ; aresflashdownloader\x2Ecom%3fccecaedbebfcaf\x2Ecom\stoolbar\.anwb\.nl
 (assert (not (str.in_re X (re.++ (str.to_re "aresflashdownloader.com%3fccecaedbebfcaf.com") (re.union (str.to_re " ") (str.to_re "\u{9}") (str.to_re "\u{a}") (str.to_re "\u{c}") (str.to_re "\u{d}")) (str.to_re "toolbar.anwb.nl\u{a}")))))
 (check-sat)
+
+(exit)

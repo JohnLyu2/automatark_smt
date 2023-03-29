@@ -6,3 +6,5 @@
 ; /filename=[^\n]*\x2exls/i
 (assert (str.in_re X (re.++ (str.to_re "/filename=") (re.* (re.comp (str.to_re "\u{a}"))) (str.to_re ".xls/i\u{a}"))))
 (check-sat)
+
+(exit)

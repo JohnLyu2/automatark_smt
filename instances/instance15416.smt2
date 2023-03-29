@@ -8,3 +8,5 @@
 ; Host\x3A.*Peer.*Host\x3ABasicurl=http\x3A
 (assert (str.in_re X (re.++ (str.to_re "Host:") (re.* re.allchar) (str.to_re "Peer") (re.* re.allchar) (str.to_re "Host:Basicurl=http:\u{1b}\u{a}"))))
 (check-sat)
+
+(exit)

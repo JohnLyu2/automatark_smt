@@ -8,3 +8,5 @@
 ; /\/Java([0-9]{1,2})?\.jar\?java=[0-9]{2}/U
 (assert (str.in_re X (re.++ (str.to_re "//Java") (re.opt ((_ re.loop 1 2) (re.range "0" "9"))) (str.to_re ".jar?java=") ((_ re.loop 2 2) (re.range "0" "9")) (str.to_re "/U\u{a}"))))
 (check-sat)
+
+(exit)

@@ -2,3 +2,5 @@
 ; User-Agent\x3A\d+Host\x3AconfigINTERNAL\.iniFictionaljspv\x3B
 (assert (not (str.in_re X (re.++ (str.to_re "User-Agent:") (re.+ (re.range "0" "9")) (str.to_re "Host:configINTERNAL.iniFictionaljspv;\u{a}")))))
 (check-sat)
+
+(exit)

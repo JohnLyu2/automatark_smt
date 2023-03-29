@@ -8,3 +8,5 @@
 ; xmlHost\x3ADAPCURLBlazeActivity
 (assert (str.in_re X (str.to_re "xmlHost:DAPCURLBlazeActivity\u{a}")))
 (check-sat)
+
+(exit)

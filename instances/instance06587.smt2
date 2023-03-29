@@ -8,3 +8,5 @@
 ; NetControl\x2EServerNetTrackerSiLENTHost\x3A
 (assert (str.in_re X (str.to_re "NetControl.Server\u{13}NetTrackerSiLENTHost:\u{a}")))
 (check-sat)
+
+(exit)

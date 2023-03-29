@@ -10,3 +10,5 @@
 ; metaresults\.copernic\.comServer\x00
 (assert (not (str.in_re X (str.to_re "metaresults.copernic.comServer\u{0}\u{a}"))))
 (check-sat)
+
+(exit)

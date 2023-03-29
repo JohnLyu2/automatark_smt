@@ -8,3 +8,5 @@
 ; serverUSER-AttachedReferer\x3AyouPointsUser-Agent\x3AHost\x3a
 (assert (not (str.in_re X (str.to_re "serverUSER-AttachedReferer:youPointsUser-Agent:Host:\u{a}"))))
 (check-sat)
+
+(exit)

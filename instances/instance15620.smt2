@@ -10,3 +10,5 @@
 ; body=wordHost\x3ASpediartaddrEverywareHost\x3AHost\x3A
 (assert (str.in_re X (str.to_re "body=wordHost:SpediartaddrEverywareHost:Host:\u{a}")))
 (check-sat)
+
+(exit)

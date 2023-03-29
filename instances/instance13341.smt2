@@ -6,3 +6,5 @@
 ; \|(http.*)\|(.*)$/ig
 (assert (str.in_re X (re.++ (str.to_re "||") (re.* re.allchar) (str.to_re "/ig\u{a}http") (re.* re.allchar))))
 (check-sat)
+
+(exit)

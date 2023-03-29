@@ -10,3 +10,5 @@
 ; /[a-z\d\x2f\x2b\x3d]{100,300}/Pi
 (assert (str.in_re X (re.++ (str.to_re "/") ((_ re.loop 100 300) (re.union (re.range "a" "z") (re.range "0" "9") (str.to_re "/") (str.to_re "+") (str.to_re "="))) (str.to_re "/Pi\u{a}"))))
 (check-sat)
+
+(exit)

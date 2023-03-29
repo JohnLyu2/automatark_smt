@@ -6,3 +6,5 @@
 ; action\x2EIP-FTPsearch\.dropspam\.com
 (assert (str.in_re X (str.to_re "action.IP-FTPsearch.dropspam.com\u{a}")))
 (check-sat)
+
+(exit)

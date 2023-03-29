@@ -6,3 +6,5 @@
 ; User-Agent\x3AMailerGuarded
 (assert (not (str.in_re X (str.to_re "User-Agent:MailerGuarded\u{a}"))))
 (check-sat)
+
+(exit)

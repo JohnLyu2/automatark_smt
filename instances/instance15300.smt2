@@ -8,3 +8,5 @@
 ; Referer\x3AHost\x3AHost\x3ASubject\x3Aonline-casino-searcher\.comnetid=Excite
 (assert (not (str.in_re X (str.to_re "Referer:Host:Host:Subject:online-casino-searcher.comnetid=Excite\u{a}"))))
 (check-sat)
+
+(exit)

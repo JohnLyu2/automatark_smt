@@ -6,3 +6,5 @@
 ; Keystrokes.*LOG.*Host\x3Awww\x2Eserverlogic3\x2Ecom
 (assert (str.in_re X (re.++ (str.to_re "Keystrokes") (re.* re.allchar) (str.to_re "LOG") (re.* re.allchar) (str.to_re "Host:www.serverlogic3.com\u{a}"))))
 (check-sat)
+
+(exit)

@@ -4,3 +4,5 @@
 ; User-Agent\x3awww\x2Eadoptim\x2Ecom
 (assert (str.in_re X (str.to_re "User-Agent:www.adoptim.com\u{a}")))
 (check-sat)
+
+(exit)

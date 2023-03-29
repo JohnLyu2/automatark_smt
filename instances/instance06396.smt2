@@ -10,3 +10,5 @@
 ; User-Agent\x3AUser-Agent\x3a
 (assert (not (str.in_re X (str.to_re "User-Agent:User-Agent:\u{a}"))))
 (check-sat)
+
+(exit)

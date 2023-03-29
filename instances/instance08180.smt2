@@ -6,3 +6,5 @@
 ; upgrade\x2Eqsrch\x2Einfox2Fie\.aspdcww\x2Edmcast\x2Ecom
 (assert (str.in_re X (str.to_re "upgrade.qsrch.infox2Fie.aspdcww.dmcast.com\u{a}")))
 (check-sat)
+
+(exit)

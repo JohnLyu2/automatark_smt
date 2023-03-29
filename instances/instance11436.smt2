@@ -8,3 +8,5 @@
 ; ^(www\.regxlib\.com)$
 (assert (str.in_re X (str.to_re "www.regxlib.com\u{a}")))
 (check-sat)
+
+(exit)

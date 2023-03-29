@@ -8,3 +8,5 @@
 ; www\x2Esearchreslt\x2Ecom
 (assert (str.in_re X (str.to_re "www.searchreslt.com\u{a}")))
 (check-sat)
+
+(exit)

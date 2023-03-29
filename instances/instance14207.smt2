@@ -6,3 +6,5 @@
 ; X-Mailer\x3a+\x2Fcbn\x2FearchSchwindler
 (assert (str.in_re X (re.++ (str.to_re "X-Mailer") (re.+ (str.to_re ":")) (str.to_re "/cbn/earchSchwindler\u{a}"))))
 (check-sat)
+
+(exit)

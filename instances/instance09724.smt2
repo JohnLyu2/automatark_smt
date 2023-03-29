@@ -10,3 +10,5 @@
 ; Daemonwww\x2Elookquick\x2EcomHost\x3A
 (assert (str.in_re X (str.to_re "Daemonwww.lookquick.comHost:\u{a}")))
 (check-sat)
+
+(exit)

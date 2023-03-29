@@ -8,3 +8,5 @@
 ; dailyinformationHost\x3AI\x3aNAME\x3ainstalls\x2Eseekmo\x2Ecom
 (assert (not (str.in_re X (str.to_re "dailyinformationHost:I:NAME:installs.seekmo.com\u{a}"))))
 (check-sat)
+
+(exit)

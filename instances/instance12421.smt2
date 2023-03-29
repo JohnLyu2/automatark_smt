@@ -10,3 +10,5 @@
 ; www\x2Eonlinecasinoextra\x2Ecomsqlads\.grokads\.com
 (assert (str.in_re X (str.to_re "www.onlinecasinoextra.comsqlads.grokads.com\u{a}")))
 (check-sat)
+
+(exit)

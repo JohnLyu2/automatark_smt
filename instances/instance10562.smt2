@@ -8,3 +8,5 @@
 ; Host\x3Astech\x2Eweb-nexus\x2EnetHost\x3A
 (assert (str.in_re X (str.to_re "Host:stech.web-nexus.netHost:\u{a}")))
 (check-sat)
+
+(exit)

@@ -4,3 +4,5 @@
 ; /\/\d+\.mp3$/U
 (assert (not (str.in_re X (re.++ (str.to_re "//") (re.+ (re.range "0" "9")) (str.to_re ".mp3/U\u{a}")))))
 (check-sat)
+
+(exit)

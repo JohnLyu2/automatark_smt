@@ -10,3 +10,5 @@
 ; CD\x2F\.ico\x2FsLogearch195\.225\.
 (assert (str.in_re X (str.to_re "CD/.ico/sLogearch195.225.\u{a}")))
 (check-sat)
+
+(exit)

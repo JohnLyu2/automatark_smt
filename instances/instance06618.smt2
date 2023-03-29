@@ -8,3 +8,5 @@
 ; ^0?[0-9]?[0-9]$|^(100)$
 (assert (str.in_re X (re.union (re.++ (re.opt (str.to_re "0")) (re.opt (re.range "0" "9")) (re.range "0" "9")) (str.to_re "100\u{a}"))))
 (check-sat)
+
+(exit)

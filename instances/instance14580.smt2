@@ -8,3 +8,5 @@
 ; A-311Host\x3Alnzzlnbk\x2fpkrm\.finSubject\x3a
 (assert (str.in_re X (str.to_re "A-311Host:lnzzlnbk/pkrm.finSubject:\u{a}")))
 (check-sat)
+
+(exit)

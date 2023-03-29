@@ -8,3 +8,5 @@
 ; Host\x3AHost\x3Aalertseqepagqfphv\x2fsfd
 (assert (not (str.in_re X (str.to_re "Host:Host:alertseqepagqfphv/sfd\u{a}"))))
 (check-sat)
+
+(exit)

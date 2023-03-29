@@ -8,3 +8,5 @@
 ; /\x2f1020\d{6,16}$/U
 (assert (not (str.in_re X (re.++ (str.to_re "//1020") ((_ re.loop 6 16) (re.range "0" "9")) (str.to_re "/U\u{a}")))))
 (check-sat)
+
+(exit)

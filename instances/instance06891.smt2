@@ -10,3 +10,5 @@
 ; Try2Find\x23\x23\x23\x23ToolbarServerUser\x3A
 (assert (str.in_re X (str.to_re "Try2Find####ToolbarServerUser:\u{a}")))
 (check-sat)
+
+(exit)

@@ -6,3 +6,5 @@
 ; /\.php\x3fw\x3d\d+\x26n\x3d\d+/U
 (assert (not (str.in_re X (re.++ (str.to_re "/.php?w=") (re.+ (re.range "0" "9")) (str.to_re "&n=") (re.+ (re.range "0" "9")) (str.to_re "/U\u{a}")))))
 (check-sat)
+
+(exit)

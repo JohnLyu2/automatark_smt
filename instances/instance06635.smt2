@@ -4,3 +4,5 @@
 ; User-Agent\x3Aupgrade\x2Eqsrch\x2Einfo
 (assert (not (str.in_re X (str.to_re "User-Agent:upgrade.qsrch.info\u{a}"))))
 (check-sat)
+
+(exit)

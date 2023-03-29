@@ -4,3 +4,5 @@
 ; /\.html\?jar$/U
 (assert (str.in_re X (str.to_re "/.html?jar/U\u{a}")))
 (check-sat)
+
+(exit)

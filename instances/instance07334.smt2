@@ -8,3 +8,5 @@
 ; Host\x3A\x252EResultsUser-Agent\x3A
 (assert (not (str.in_re X (str.to_re "Host:%2EResultsUser-Agent:\u{a}"))))
 (check-sat)
+
+(exit)

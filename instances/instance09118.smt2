@@ -6,3 +6,5 @@
 ; wwwHost\x3aRobertVersionspyblini\x2Eini
 (assert (not (str.in_re X (str.to_re "wwwHost:RobertVersionspyblini.ini\u{a}"))))
 (check-sat)
+
+(exit)

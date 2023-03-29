@@ -4,3 +4,5 @@
 ; activityHWAEHost\x3aMyWayServidor\x2EHANDYEmail
 (assert (str.in_re X (str.to_re "activityHWAEHost:MyWayServidor.\u{13}HANDYEmail\u{a}")))
 (check-sat)
+
+(exit)

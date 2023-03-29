@@ -10,3 +10,5 @@
 ; /^From\x3A[^\r\n]*Trojaner-Info<webmaster@trojaner-info\x2Ede>/smi
 (assert (not (str.in_re X (re.++ (str.to_re "/From:") (re.* (re.union (str.to_re "\u{d}") (str.to_re "\u{a}"))) (str.to_re "Trojaner-Info<webmaster@trojaner-info.de>/smi\u{a}")))))
 (check-sat)
+
+(exit)

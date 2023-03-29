@@ -10,3 +10,5 @@
 ; User-Agent\x3ASurveillancecomOnline
 (assert (str.in_re X (str.to_re "User-Agent:Surveillance\u{13}comOnline\u{a}")))
 (check-sat)
+
+(exit)

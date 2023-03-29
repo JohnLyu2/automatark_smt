@@ -8,3 +8,5 @@
 ; libManager\x2Edll\x5Eget
 (assert (str.in_re X (str.to_re "libManager.dll^get\u{a}")))
 (check-sat)
+
+(exit)

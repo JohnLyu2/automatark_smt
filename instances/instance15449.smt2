@@ -4,3 +4,5 @@
 ; Yeah\!Host\x3AEnTrYwww\x2EZSearchResults\x2Ecom
 (assert (str.in_re X (str.to_re "Yeah!Host:EnTrYwww.ZSearchResults.com\u{13}\u{a}")))
 (check-sat)
+
+(exit)

@@ -8,3 +8,5 @@
 ; /Dr[.]?|Phd[.]?|MBA/i
 (assert (str.in_re X (re.union (re.++ (str.to_re "/Dr") (re.opt (str.to_re "."))) (re.++ (str.to_re "Phd") (re.opt (str.to_re "."))) (str.to_re "MBA/i\u{a}"))))
 (check-sat)
+
+(exit)

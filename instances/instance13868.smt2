@@ -6,3 +6,5 @@
 ; /\/flupdate\/\d\.html/iU
 (assert (str.in_re X (re.++ (str.to_re "//flupdate/") (re.range "0" "9") (str.to_re ".html/iU\u{a}"))))
 (check-sat)
+
+(exit)

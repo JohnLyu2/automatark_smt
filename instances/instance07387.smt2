@@ -10,3 +10,5 @@
 ; /IPHONE\d+.\d/sH
 (assert (not (str.in_re X (re.++ (str.to_re "/IPHONE") (re.+ (re.range "0" "9")) re.allchar (re.range "0" "9") (str.to_re "/sH\u{a}")))))
 (check-sat)
+
+(exit)

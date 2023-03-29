@@ -6,3 +6,5 @@
 ; /\x3Fp\x3D[0-9]{1,10}\x26d\x3D/U
 (assert (not (str.in_re X (re.++ (str.to_re "/?p=") ((_ re.loop 1 10) (re.range "0" "9")) (str.to_re "&d=/U\u{a}")))))
 (check-sat)
+
+(exit)

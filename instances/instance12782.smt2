@@ -10,3 +10,5 @@
 ; name\x3dEmailbadurl\x2Egrandstreetinteractive\x2EcomHost\x3Astepwww\x2Ekornputers\x2Ecom
 (assert (not (str.in_re X (str.to_re "name=Emailbadurl.grandstreetinteractive.comHost:stepwww.kornputers.com\u{a}"))))
 (check-sat)
+
+(exit)

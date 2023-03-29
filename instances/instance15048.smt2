@@ -6,3 +6,5 @@
 ; BasicPointsHost\x3Anews
 (assert (str.in_re X (str.to_re "BasicPointsHost:news\u{a}")))
 (check-sat)
+
+(exit)

@@ -8,3 +8,5 @@
 ; <\*?font              # Match start of Font Tag
 (assert (not (str.in_re X (re.++ (str.to_re "<") (re.opt (str.to_re "*")) (str.to_re "font              # Match start of Font Tag\u{a}")))))
 (check-sat)
+
+(exit)

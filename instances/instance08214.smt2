@@ -8,3 +8,5 @@
 ; ^3[234689][0-9]$
 (assert (not (str.in_re X (re.++ (str.to_re "3") (re.union (str.to_re "2") (str.to_re "3") (str.to_re "4") (str.to_re "6") (str.to_re "8") (str.to_re "9")) (re.range "0" "9") (str.to_re "\u{a}")))))
 (check-sat)
+
+(exit)

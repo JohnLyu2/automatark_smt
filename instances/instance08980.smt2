@@ -4,3 +4,5 @@
 ; trackwww\x2Ealfacleaner\x2Ecom
 (assert (not (str.in_re X (str.to_re "trackwww.alfacleaner.com\u{a}"))))
 (check-sat)
+
+(exit)

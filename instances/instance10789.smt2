@@ -6,3 +6,5 @@
 ; function.*WEBCAM-.*User-Agent\x3a
 (assert (not (str.in_re X (re.++ (str.to_re "function") (re.* re.allchar) (str.to_re "WEBCAM-") (re.* re.allchar) (str.to_re "User-Agent:\u{a}")))))
 (check-sat)
+
+(exit)

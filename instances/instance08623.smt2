@@ -6,3 +6,5 @@
 ; IP\d+SAHPORT-User-Agent\x3AUser-Agent\x3A
 (assert (str.in_re X (re.++ (str.to_re "IP") (re.+ (re.range "0" "9")) (str.to_re "SAHPORT-User-Agent:User-Agent:\u{a}"))))
 (check-sat)
+
+(exit)

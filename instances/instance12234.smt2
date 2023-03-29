@@ -8,3 +8,5 @@
 ; \x3Cchat\x3EHost\x3Atid\x3D\x7B
 (assert (not (str.in_re X (str.to_re "<chat>\u{1b}Host:tid={\u{a}"))))
 (check-sat)
+
+(exit)

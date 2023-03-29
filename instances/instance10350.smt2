@@ -6,3 +6,5 @@
 ; User-Agent\x3AUser-Agent\x3AHost\x3ASoftActivityYeah\!
 (assert (str.in_re X (str.to_re "User-Agent:User-Agent:Host:SoftActivity\u{13}Yeah!\u{a}")))
 (check-sat)
+
+(exit)

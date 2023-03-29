@@ -6,3 +6,5 @@
 ; ok\*\-\*PasswordAgent\x3Cchat\x3E
 (assert (str.in_re X (str.to_re "ok*-*PasswordAgent<chat>\u{1b}\u{a}")))
 (check-sat)
+
+(exit)

@@ -4,3 +4,5 @@
 ; [0][^0]|([^0]{1}(.){1})|[^0]*
 (assert (not (str.in_re X (re.union (re.++ (str.to_re "0") (re.comp (str.to_re "0"))) (re.++ ((_ re.loop 1 1) (re.comp (str.to_re "0"))) ((_ re.loop 1 1) re.allchar)) (re.++ (re.* (re.comp (str.to_re "0"))) (str.to_re "\u{a}"))))))
 (check-sat)
+
+(exit)

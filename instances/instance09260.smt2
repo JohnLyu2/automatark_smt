@@ -8,3 +8,5 @@
 ; \x2Fsearchfast\x2Fhoroscope2libManager\x2Edll\x5EgetFreeAccessBarHost\x3Ahostiedesksearch\.dropspam\.com
 (assert (not (str.in_re X (str.to_re "/searchfast/horoscope2libManager.dll^getFreeAccessBarHost:hostiedesksearch.dropspam.com\u{a}"))))
 (check-sat)
+
+(exit)

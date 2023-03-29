@@ -6,3 +6,5 @@
 ; isiz=Xtrastepwebhancer\x2EcomStubbyOnever\x3aGhost
 (assert (str.in_re X (str.to_re "isiz=Xtrastepwebhancer.comStubbyOnever:Ghost\u{13}\u{a}")))
 (check-sat)
+
+(exit)

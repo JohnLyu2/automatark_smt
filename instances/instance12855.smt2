@@ -10,3 +10,5 @@
 ; User-Agent\x3A.*Host\x3A.*w3whowww\x2Esogou\x2Ecom
 (assert (str.in_re X (re.++ (str.to_re "User-Agent:") (re.* re.allchar) (str.to_re "Host:") (re.* re.allchar) (str.to_re "w3whowww.sogou.com\u{a}"))))
 (check-sat)
+
+(exit)

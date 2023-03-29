@@ -6,3 +6,5 @@
 ; /^\/cnt\.php\?id=\d+$/U
 (assert (str.in_re X (re.++ (str.to_re "//cnt.php?id=") (re.+ (re.range "0" "9")) (str.to_re "/U\u{a}"))))
 (check-sat)
+
+(exit)

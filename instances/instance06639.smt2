@@ -6,3 +6,5 @@
 ; isSAH\*Agentwww\.raxsearch\.comHost\x3A-~-\x22The
 (assert (not (str.in_re X (str.to_re "isSAH*Agentwww.raxsearch.comHost:-~-\u{22}The\u{a}"))))
 (check-sat)
+
+(exit)

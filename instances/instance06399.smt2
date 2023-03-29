@@ -8,3 +8,5 @@
 ; /\/jlnp\.html$/U
 (assert (str.in_re X (str.to_re "//jlnp.html/U\u{a}")))
 (check-sat)
+
+(exit)

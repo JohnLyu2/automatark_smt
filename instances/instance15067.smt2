@@ -4,3 +4,5 @@
 ; www\.trackhits\.ccUser-Agent\x3Aiz=LOGSupremeResult
 (assert (str.in_re X (str.to_re "www.trackhits.ccUser-Agent:iz=LOGSupremeResult\u{a}")))
 (check-sat)
+
+(exit)

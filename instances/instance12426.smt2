@@ -6,3 +6,5 @@
 ; Host\x3AtoUser-Agent\x3AClientsConnected-
 (assert (str.in_re X (str.to_re "Host:toUser-Agent:ClientsConnected-\u{a}")))
 (check-sat)
+
+(exit)

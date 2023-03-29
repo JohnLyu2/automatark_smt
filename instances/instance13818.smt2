@@ -8,3 +8,5 @@
 ; xbqyosoe\x2fcpvmdll\x3F
 (assert (not (str.in_re X (str.to_re "xbqyosoe/cpvmdll?\u{a}"))))
 (check-sat)
+
+(exit)

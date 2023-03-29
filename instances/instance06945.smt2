@@ -8,3 +8,5 @@
 ; /\x3d\x3d$/P
 (assert (not (str.in_re X (str.to_re "/==/P\u{a}"))))
 (check-sat)
+
+(exit)

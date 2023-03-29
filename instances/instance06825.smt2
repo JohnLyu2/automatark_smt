@@ -10,3 +10,5 @@
 ; User-Agent\x3A\w+Minutes\d+www\x2Eeblocs\x2EcomHost\x3ARunnerHost\x3a\x2Ehtmldll\x3F
 (assert (not (str.in_re X (re.++ (str.to_re "User-Agent:") (re.+ (re.union (re.range "0" "9") (re.range "A" "Z") (re.range "a" "z") (str.to_re "_"))) (str.to_re "Minutes") (re.+ (re.range "0" "9")) (str.to_re "www.eblocs.com\u{1b}Host:RunnerHost:.htmldll?\u{a}")))))
 (check-sat)
+
+(exit)

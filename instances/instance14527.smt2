@@ -10,3 +10,5 @@
 ; Logger.*Host\x3A.*\x2Fcommunicatortb\x7croogoo\x7c
 (assert (not (str.in_re X (re.++ (str.to_re "Logger") (re.* re.allchar) (str.to_re "Host:") (re.* re.allchar) (str.to_re "/communicatortb|roogoo|\u{a}")))))
 (check-sat)
+
+(exit)

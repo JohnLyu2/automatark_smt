@@ -2,3 +2,5 @@
 ; ^([GB])*(([1-9]\d{8})|([1-9]\d{11}))$
 (assert (str.in_re X (re.++ (re.* (re.union (str.to_re "G") (str.to_re "B"))) (re.union (re.++ (re.range "1" "9") ((_ re.loop 8 8) (re.range "0" "9"))) (re.++ (re.range "1" "9") ((_ re.loop 11 11) (re.range "0" "9")))) (str.to_re "\u{a}"))))
 (check-sat)
+
+(exit)

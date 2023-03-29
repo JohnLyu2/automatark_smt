@@ -8,3 +8,5 @@
 ; User-Agent\x3AChildWebGuardianHXDownloadX-Mailer\x3a
 (assert (not (str.in_re X (str.to_re "User-Agent:ChildWebGuardianHXDownloadX-Mailer:\u{13}\u{a}"))))
 (check-sat)
+
+(exit)

@@ -6,3 +6,5 @@
 ; @"^\d[a-zA-Z0-9]+$"
 (assert (str.in_re X (re.++ (str.to_re "@\u{22}") (re.range "0" "9") (re.+ (re.union (re.range "a" "z") (re.range "A" "Z") (re.range "0" "9"))) (str.to_re "\u{22}\u{a}"))))
 (check-sat)
+
+(exit)

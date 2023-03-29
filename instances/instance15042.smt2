@@ -10,3 +10,5 @@
 ; ^([A-Z]{2}?(\d{7}))$
 (assert (str.in_re X (re.++ (str.to_re "\u{a}") ((_ re.loop 2 2) (re.range "A" "Z")) ((_ re.loop 7 7) (re.range "0" "9")))))
 (check-sat)
+
+(exit)

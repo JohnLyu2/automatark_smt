@@ -4,3 +4,5 @@
 ; ovplEchelonUser-Agent\x3AUser-Agent\x3AHost\x3a
 (assert (str.in_re X (str.to_re "ovplEchelonUser-Agent:User-Agent:Host:\u{a}")))
 (check-sat)
+
+(exit)

@@ -10,3 +10,5 @@
 ; Host\x3AFrom\x3aUser-Agent\x3A\x2Fr\x2Fkeys\x2FkeysClient
 (assert (str.in_re X (str.to_re "Host:From:User-Agent:/r/keys/keysClient\u{a}")))
 (check-sat)
+
+(exit)

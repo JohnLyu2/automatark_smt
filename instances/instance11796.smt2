@@ -6,3 +6,5 @@
 ; \x2APORT2\x2Acdpnode=Host\x3A
 (assert (not (str.in_re X (str.to_re "*PORT2*cdpnode=Host:\u{a}"))))
 (check-sat)
+
+(exit)

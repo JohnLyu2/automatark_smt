@@ -8,3 +8,5 @@
 ; www\.123mania\.com\x2F0409areZC-Bridge
 (assert (str.in_re X (str.to_re "www.123mania.com/0409areZC-Bridge\u{a}")))
 (check-sat)
+
+(exit)

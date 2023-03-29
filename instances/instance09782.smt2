@@ -8,3 +8,5 @@
 ; ToolbarUser-Agent\x3AFrom\x3A
 (assert (str.in_re X (str.to_re "ToolbarUser-Agent:From:\u{a}")))
 (check-sat)
+
+(exit)

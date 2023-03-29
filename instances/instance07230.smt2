@@ -4,3 +4,5 @@
 ; /\.png$/Ui
 (assert (not (str.in_re X (str.to_re "/.png/Ui\u{a}"))))
 (check-sat)
+
+(exit)

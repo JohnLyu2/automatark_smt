@@ -10,3 +10,5 @@
 ; ^01[0-2]{1}[0-9]{8}
 (assert (not (str.in_re X (re.++ (str.to_re "01") ((_ re.loop 1 1) (re.range "0" "2")) ((_ re.loop 8 8) (re.range "0" "9")) (str.to_re "\u{a}")))))
 (check-sat)
+
+(exit)

@@ -6,3 +6,5 @@
 ; Host\x3anotificationwww\.thecommunicator\.net
 (assert (str.in_re X (str.to_re "Host:notification\u{13}www.thecommunicator.net\u{a}")))
 (check-sat)
+
+(exit)

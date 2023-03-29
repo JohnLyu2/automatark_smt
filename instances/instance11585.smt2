@@ -6,3 +6,5 @@
 ; eveocczmthmmq\x2fomzl\d+Host\x3Aulmxct\x2fmqoyc
 (assert (not (str.in_re X (re.++ (str.to_re "eveocczmthmmq/omzl") (re.+ (re.range "0" "9")) (str.to_re "Host:ulmxct/mqoyc\u{a}")))))
 (check-sat)
+
+(exit)

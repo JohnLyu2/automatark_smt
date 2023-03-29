@@ -8,3 +8,5 @@
 ; DATencentTravelerWebConnLibHost\x3A
 (assert (not (str.in_re X (str.to_re "DATencentTravelerWebConnLibHost:\u{a}"))))
 (check-sat)
+
+(exit)

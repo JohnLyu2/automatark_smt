@@ -6,3 +6,5 @@
 ; /rec\.php$/Usmi
 (assert (str.in_re X (str.to_re "/rec.php/Usmi\u{a}")))
 (check-sat)
+
+(exit)

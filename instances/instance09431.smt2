@@ -10,3 +10,5 @@
 ; WindowsFrom\x3A\x2FCU1\-extreme\x2Ebiz
 (assert (str.in_re X (str.to_re "WindowsFrom:/CU1-extreme.biz\u{a}")))
 (check-sat)
+
+(exit)

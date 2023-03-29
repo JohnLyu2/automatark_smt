@@ -10,3 +10,5 @@
 ; DownloadDmInf\x5EinfoSimpsonUser-Agent\x3AClient
 (assert (not (str.in_re X (str.to_re "DownloadDmInf^infoSimpsonUser-Agent:Client\u{a}"))))
 (check-sat)
+
+(exit)

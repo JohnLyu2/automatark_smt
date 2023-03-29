@@ -6,3 +6,5 @@
 ; Subject\x3A\.bmpfromemail=couponbar\.coupons\.comToolbarxml\.alexa\.com
 (assert (not (str.in_re X (str.to_re "Subject:.bmpfromemail=couponbar.coupons.comToolbarxml.alexa.com\u{a}"))))
 (check-sat)
+
+(exit)

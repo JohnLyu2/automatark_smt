@@ -8,3 +8,5 @@
 ; Toolbar\dcount\x2Eyok\x2EcomweatherHost\x3AUser-Agent\x3A
 (assert (str.in_re X (re.++ (str.to_re "Toolbar") (re.range "0" "9") (str.to_re "count.yok.comweatherHost:User-Agent:\u{a}"))))
 (check-sat)
+
+(exit)

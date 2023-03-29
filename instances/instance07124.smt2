@@ -10,3 +10,5 @@
 ; /poc\/(Exploit|myClassLoader|pocMain|runCmd)\.class/ims
 (assert (str.in_re X (re.++ (str.to_re "/poc/") (re.union (str.to_re "Exploit") (str.to_re "myClassLoader") (str.to_re "pocMain") (str.to_re "runCmd")) (str.to_re ".class/ims\u{a}"))))
 (check-sat)
+
+(exit)
