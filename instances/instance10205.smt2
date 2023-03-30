@@ -17,5 +17,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "fsbuffsearch.conduit.comocllceclbhs/gth\u{a}")))
 (assert (str.in_re X (re.++ (str.to_re "//software.php?/Ui\u{a}") ((_ re.loop 15 15) (re.range "0" "9")) (re.* (re.range "0" "9")))))
 (check-sat)
-
-(exit)

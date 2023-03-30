@@ -17,5 +17,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "ProtoSubject:source=IncrediFindProjectAgentHost:Host:Host:\u{a}"))))
 (assert (str.in_re X (re.++ ((_ re.loop 0 0) re.allchar) (str.to_re "\u{a}"))))
 (check-sat)
-
-(exit)

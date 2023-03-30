@@ -16,5 +16,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ (str.to_re "<h") (re.range "1" "6") (str.to_re ">") (re.* (re.comp (str.to_re "<"))) (str.to_re "</h") (re.range "1" "6") (str.to_re ">\u{a}")))))
 (assert (not (str.in_re X (str.to_re "dialup_vpn@hermangroup.orgUser-Agent:\u{a}"))))
 (check-sat)
-
-(exit)

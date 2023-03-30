@@ -19,5 +19,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (str.to_re "sPatternTablet = '/") (re.union (str.to_re "Tablet") (str.to_re "iPad") (str.to_re "iPod")) (str.to_re "/';\u{a}"))))
 (assert (not (str.in_re X (str.to_re "Server.exeHWPEServer:Host:\u{a}"))))
 (check-sat)
-
-(exit)

@@ -17,5 +17,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (str.to_re "/gate.php?reg=") ((_ re.loop 10 10) (re.range "a" "z")) (str.to_re "/U\u{a}"))))
 (assert (not (str.in_re X (str.to_re "DigExtNetBus[Static\u{a}"))))
 (check-sat)
-
-(exit)

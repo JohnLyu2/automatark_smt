@@ -19,5 +19,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (str.to_re "/file=") (re.union (str.to_re "|") (str.to_re "'")) (str.to_re "/Ui\u{a}"))))
 (assert (str.in_re X (str.to_re "Host:.exePass-OnHost:.exe/toolbar/\u{a}")))
 (check-sat)
-
-(exit)

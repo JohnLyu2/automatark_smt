@@ -18,5 +18,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "\u{d}\u{a}STATUS:User-Agent:Host:Referer:\u{a}"))))
 (assert (not (str.in_re X (str.to_re "com/index.php?tpid=}{User:\u{a}"))))
 (check-sat)
-
-(exit)

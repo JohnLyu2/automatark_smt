@@ -19,5 +19,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "User-Agent:User-Agent:\u{a}"))))
 (assert (str.in_re X (str.to_re "/ta/NEWS/password;1;Optix\u{a}")))
 (check-sat)
-
-(exit)

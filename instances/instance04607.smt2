@@ -15,5 +15,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (declare-const X String)
 (assert (str.in_re X (re.union (re.++ ((_ re.loop 2 2) (re.range "A" "z")) ((_ re.loop 9 9) (re.range "0" "9")) (re.union (str.to_re "G") (str.to_re "g")) (re.union (str.to_re "B") (str.to_re "b"))) (re.++ ((_ re.loop 12 12) (re.range "0" "9")) (str.to_re "\u{a}")))))
 (check-sat)
-
-(exit)

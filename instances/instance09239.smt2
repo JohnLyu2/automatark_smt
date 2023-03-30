@@ -17,5 +17,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ ((_ re.loop 3 3) (re.union (re.range "A" "Z") (re.range "0" "9"))) ((_ re.loop 2 2) (re.range "A" "Z")) ((_ re.loop 2 2) (re.range "0" "9")) ((_ re.loop 1 1) (re.union (re.range "A" "Z") (re.range "0" "9"))) ((_ re.loop 1 1) (re.union (str.to_re "X") (re.range "0" "9"))) ((_ re.loop 3 3) (re.union (re.range "A" "Z") (re.range "0" "9"))) ((_ re.loop 5 5) (re.range "0" "9")) (str.to_re "\u{a}"))))
 (assert (str.in_re X (re.union (str.to_re "script") (str.to_re "<") (str.to_re ">") (str.to_re "%3c") (str.to_re "%3e") (str.to_re "SELECT ") (str.to_re "UPDATE ") (str.to_re "INSERT ") (str.to_re "DELETE") (str.to_re "GRANT ") (str.to_re "REVOKE") (str.to_re "UNION") (str.to_re "&lt;") (str.to_re "&gt;\u{a}"))))
 (check-sat)
-
-(exit)

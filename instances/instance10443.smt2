@@ -19,5 +19,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "/xml/toolbar/Exploiter\u{a}")))
 (assert (str.in_re X (re.++ (re.* re.allchar) (re.* re.allchar) (str.to_re "\u{a}yourdomain") re.allchar (str.to_re "com"))))
 (check-sat)
-
-(exit)

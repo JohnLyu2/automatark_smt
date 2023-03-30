@@ -17,5 +17,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "IPUSER-Host:User-Agent:/searchfast/\u{a}")))
 (assert (str.in_re X (str.to_re "(robert@blackcastlesoft.com)\u{a}")))
 (check-sat)
-
-(exit)

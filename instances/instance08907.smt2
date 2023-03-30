@@ -17,5 +17,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ (str.to_re "Host:") (re.+ (re.union (re.range "0" "9") (re.range "A" "Z") (re.range "a" "z") (str.to_re "_"))) (str.to_re "Host:") (re.* (re.union (str.to_re "\u{a}") (str.to_re "\u{d}"))) (str.to_re "Host:Host:\u{5c}home/lordofsearch\u{a}")))))
 (assert (not (str.in_re X (str.to_re "www.weepee.com\u{1b}http\u{d}\u{a}CurrentOwner:\u{a}"))))
 (check-sat)
-
-(exit)

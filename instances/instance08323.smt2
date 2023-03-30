@@ -18,5 +18,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ ((_ re.loop 8 8) (re.range "0" "9")) (str.to_re "\u{a}"))))
 (assert (str.in_re X (str.to_re "cyber@yahoo.comconfig.180solutions.com\u{a}")))
 (check-sat)
-
-(exit)

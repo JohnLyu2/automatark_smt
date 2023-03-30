@@ -16,5 +16,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "SSKCstech.web-nexus.net\u{a}"))))
 (assert (not (str.in_re X (re.++ (re.range "1" "9") (str.to_re "\u{a}")))))
 (check-sat)
-
-(exit)

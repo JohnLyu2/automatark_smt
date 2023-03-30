@@ -15,5 +15,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (declare-const X String)
 (assert (str.in_re X (re.++ (re.* (str.to_re "/")) (str.to_re "d9,15\u{a}"))))
 (check-sat)
-
-(exit)

@@ -19,5 +19,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ (re.union (str.to_re "S") (str.to_re "F") (str.to_re "T") (str.to_re "G")) ((_ re.loop 7 7) (re.range "0" "9")) (re.range "A" "Z") (str.to_re "\u{a}")))))
 (assert (not (str.in_re X (re.++ (str.to_re "<img>\u{a}") (re.* (re.comp (str.to_re ">"))) (re.comp (str.to_re "/"))))))
 (check-sat)
-
-(exit)

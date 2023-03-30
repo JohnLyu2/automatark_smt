@@ -18,5 +18,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ (str.to_re "\u{a}") (re.+ re.allchar) (re.+ (re.range "0" "9")) (re.* re.allchar)))))
 (assert (not (str.in_re X (str.to_re "User-Agent:User-Agent:\u{a}"))))
 (check-sat)
-
-(exit)

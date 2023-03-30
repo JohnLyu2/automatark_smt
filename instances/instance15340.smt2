@@ -18,5 +18,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ (str.to_re "/filename=") (re.+ (re.union (re.range "a" "z") (re.range "0" "9"))) (str.to_re "\u{d}\u{a}/H\u{a}")))))
 (assert (str.in_re X (str.to_re "Activityfilename=\u{22}StarLoggerDAWeb-Mail\u{a}")))
 (check-sat)
-
-(exit)

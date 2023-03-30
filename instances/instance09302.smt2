@@ -17,5 +17,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "media.dxcdirect.com.smx?PASSW=SAHHost:ProAgentIDENTIFY\u{a}")))
 (assert (not (str.in_re X (str.to_re "Host:HANDYwww.purityscan.com\u{a}"))))
 (check-sat)
-
-(exit)

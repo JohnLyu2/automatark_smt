@@ -18,5 +18,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "www.myarmory.comHost:Host:messagessearch.imesh.com\u{a}"))))
 (assert (str.in_re X (re.++ (re.opt (str.to_re "M")) (re.opt (str.to_re "T")) (re.opt (str.to_re "W")) (re.opt (str.to_re "TH")) (re.opt (str.to_re "F")) (re.opt (str.to_re "S")) (re.opt (str.to_re "SU")) (str.to_re "\u{a}"))))
 (check-sat)
-
-(exit)

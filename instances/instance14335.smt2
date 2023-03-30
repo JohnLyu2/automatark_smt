@@ -17,5 +17,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ ((_ re.loop 6 7) (re.range "0" "9")) (str.to_re "\u{a}(0") ((_ re.loop 2 2) (re.range "0" "9")) (str.to_re ")")))))
 (assert (str.in_re X (str.to_re "is}{Port:}{User:\u{a}")))
 (check-sat)
-
-(exit)

@@ -16,5 +16,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "From:<title>ActualUser-Agent:/bar_pl/fav.fcgi\u{a}"))))
 (assert (not (str.in_re X (str.to_re "trackwww.alfacleaner.com\u{a}"))))
 (check-sat)
-
-(exit)

@@ -18,5 +18,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (str.to_re "/filename=") (re.* (re.comp (str.to_re "\u{a}"))) (str.to_re ".asx/i\u{a}"))))
 (assert (not (str.in_re X (str.to_re "LoginHost:/friendship/email_thank_you?\u{a}"))))
 (check-sat)
-
-(exit)

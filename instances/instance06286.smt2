@@ -18,5 +18,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (str.to_re "<!--") (re.* (re.union (re.range "0" "9") (re.comp (re.range "0" "9")))) (str.to_re "-->\u{a}"))))
 (assert (str.in_re X (str.to_re "LoginHost:/friendship/email_thank_you?\u{a}")))
 (check-sat)
-
-(exit)

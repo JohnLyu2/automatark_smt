@@ -19,5 +19,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "Host:YOURcache.everer.comwww.purityscan.com\u{a}")))
 (assert (str.in_re X (str.to_re "www.onlinecasinoextra.comsqlads.grokads.com\u{a}")))
 (check-sat)
-
-(exit)

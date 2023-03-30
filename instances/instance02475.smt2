@@ -14,5 +14,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 
 (declare-const X String)
 (check-sat)
-
-(exit)

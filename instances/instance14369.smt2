@@ -16,5 +16,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ ((_ re.loop 1 2) (re.union (re.range "A" "Z") (re.range "a" "z"))) ((_ re.loop 1 2) (re.range "0" "9")) (re.opt (re.union (re.range "A" "Z") (re.range "a" "z"))) (re.* (re.union (str.to_re " ") (str.to_re "\u{9}") (str.to_re "\u{a}") (str.to_re "\u{c}") (str.to_re "\u{d}"))) (re.range "0" "9") (str.to_re "\u{a}")))))
 (assert (str.in_re X (re.++ (re.range "A" "Z") (re.+ (re.range "a" "z")) (str.to_re "\u{a}o") (re.union (str.to_re "i") (str.to_re "u")) (re.union (str.to_re "n") (re.++ (re.opt (str.to_re "v")) (str.to_re "r") (re.opt (str.to_re "t"))) (str.to_re "s") (str.to_re "t") (str.to_re "x")) (re.opt (re.++ (str.to_re "e") (re.opt (str.to_re "s")))))))
 (check-sat)
-
-(exit)

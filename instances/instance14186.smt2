@@ -19,5 +19,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (re.opt (str.to_re "M")) (re.opt (str.to_re "T")) (re.opt (str.to_re "W")) (re.opt (str.to_re "TH")) (re.opt (str.to_re "F")) (re.opt (str.to_re "S")) (re.opt (str.to_re "SU")) (str.to_re "\u{a}"))))
 (assert (not (str.in_re X (re.++ (str.to_re "interface") (re.* re.allchar) (str.to_re "\u{a}I_") (re.* (re.union (re.range "0" "9") (re.range "A" "Z") (re.range "a" "z") (str.to_re "_")))))))
 (check-sat)
-
-(exit)

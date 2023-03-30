@@ -17,5 +17,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ (str.to_re "toolbarplace.com") (re.* re.allchar) (str.to_re "TencentTraveler") (re.+ (re.range "0" "9")) (str.to_re "/newsurfer4/") (re.* re.allchar) (str.to_re "BysooTBADdcww.dmcast.com\u{a}")))))
 (assert (str.in_re X (re.++ (str.to_re "/filename=") (re.* (re.comp (str.to_re "\u{a}"))) (str.to_re ".wsz/i\u{a}"))))
 (check-sat)
-
-(exit)

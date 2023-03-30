@@ -17,5 +17,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "/bar_pl/chk_bar.fcgiTrojanHost:\u{a}")))
 (assert (str.in_re X (str.to_re "*PORT2*cdpnode=Host:\u{a}")))
 (check-sat)
-
-(exit)

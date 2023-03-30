@@ -18,5 +18,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "Subject:LOGX-Mailer:\u{13}\u{a}"))))
 (assert (not (str.in_re X (str.to_re "Referer:TencentTraveler\u{a}"))))
 (check-sat)
-
-(exit)

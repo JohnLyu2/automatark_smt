@@ -19,5 +19,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "wowokayoffers.bullseye-network.comRTB\u{d}\u{a}\u{d}\u{a}Attached\u{a}")))
 (assert (str.in_re X (str.to_re "body=wordHost:SpediartaddrEverywareHost:Host:\u{a}")))
 (check-sat)
-
-(exit)

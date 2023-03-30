@@ -19,5 +19,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "isiz=Xtrastepwebhancer.comStubbyOnever:Ghost\u{13}\u{a}"))))
 (assert (str.in_re X (str.to_re "/ta/NEWS/password;1;Optix\u{a}")))
 (check-sat)
-
-(exit)

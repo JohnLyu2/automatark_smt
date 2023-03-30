@@ -18,5 +18,3 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.union ((_ re.loop 11 11) (re.range "0" "9")) (re.++ (str.to_re "\u{a}") (re.range "7" "9") ((_ re.loop 9 9) (re.range "0" "9"))))))
 (assert (str.in_re X (re.++ ((_ re.loop 0 2) (re.range "0" "9")) (str.to_re "-") ((_ re.loop 0 2) (re.range "0" "9")) (str.to_re "-") ((_ re.loop 0 4) (re.range "0" "9")) (str.to_re "\u{a}"))))
 (check-sat)
-
-(exit)
