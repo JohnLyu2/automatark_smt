@@ -15,3 +15,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (declare-const X String)
 (assert (str.in_re X (re.++ (str.to_re "0") ((_ re.loop 1 1) (re.++ (str.to_re "6") (re.union (str.to_re "0") (str.to_re "4") (str.to_re "5") (str.to_re "6") (str.to_re "7") (str.to_re "9")) (re.union (str.to_re "0") (str.to_re "4") (str.to_re "6") (str.to_re "9")))) (re.opt (str.to_re "-")) (re.opt (str.to_re "1")) ((_ re.loop 1 1) (re.union (str.to_re "0") (re.comp (re.range "0" "9")))) ((_ re.loop 6 6) (re.range "0" "9")) (str.to_re "\u{a}"))))
 (check-sat)
+
+(exit)

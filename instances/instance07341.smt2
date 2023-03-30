@@ -18,3 +18,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ re.allchar (str.to_re "{") (re.range "0" "9") (str.to_re "}\u{a}"))))
 (assert (not (str.in_re X (str.to_re "vvvjkhmbgnbbw/qbn\u{1b}(robert@blackcastlesoft.com)\u{a}"))))
 (check-sat)
+
+(exit)

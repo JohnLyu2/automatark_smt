@@ -17,3 +17,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "/==/P\u{a}"))))
 (assert (str.in_re X (str.to_re "<script type=\u{22}text/javascript\u{22}>\u{a}")))
 (check-sat)
+
+(exit)

@@ -17,3 +17,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (str.to_re "Norton customer service is a type of method used to care your personal or business computer system from any virus or spyware") re.allchar (str.to_re "\u{a}"))))
 (assert (str.in_re X (str.to_re "ConectadoHost:as.cometsystems.com\u{a}")))
 (check-sat)
+
+(exit)

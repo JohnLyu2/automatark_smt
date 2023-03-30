@@ -16,3 +16,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "/bar_pl/chk.fcgiHost:\u{a}"))))
 (assert (not (str.in_re X (str.to_re "ServerAgentX-Mailer:\u{13}TencentTraveler\u{a}"))))
 (check-sat)
+
+(exit)

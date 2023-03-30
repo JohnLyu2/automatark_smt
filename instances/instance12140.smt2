@@ -18,3 +18,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "www.trackhits.ccUser-Agent:iz=LOGSupremeResult\u{a}")))
 (assert (str.in_re X (str.to_re "MSNLOGOVNUsertooffers.bullseye-network.com\u{a}")))
 (check-sat)
+
+(exit)

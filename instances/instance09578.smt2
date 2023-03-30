@@ -16,3 +16,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (str.to_re "function") (re.* re.allchar) (str.to_re "WEBCAM-") (re.* re.allchar) (str.to_re "User-Agent:\u{a}"))))
 (assert (not (str.in_re X (str.to_re "CodeguruBrowserMyPostStableWeb-MailUser-Agent:195.225.\u{a}"))))
 (check-sat)
+
+(exit)

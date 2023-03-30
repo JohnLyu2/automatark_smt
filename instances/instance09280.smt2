@@ -19,3 +19,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ (re.opt (str.to_re "+")) (str.to_re "972") (re.opt (str.to_re "-")) (re.opt (str.to_re "0")) ((_ re.loop 1 1) (re.union (str.to_re "2") (str.to_re "3") (str.to_re "4") (str.to_re "8") (str.to_re "9"))) (re.opt (str.to_re "-")) ((_ re.loop 1 1) (re.union (str.to_re "0") (re.comp (re.range "0" "9")))) ((_ re.loop 6 6) (re.range "0" "9")) (str.to_re "\u{a}")))))
 (assert (str.in_re X (str.to_re "Bar/newsurfer4/client=BysooTBADdcww.dmcast.comc.goclick.com\u{a}")))
 (check-sat)
+
+(exit)

@@ -18,3 +18,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (str.to_re "www.thecommunicator.net") (re.+ (re.range "0" "9")) (str.to_re "http://tv.seekmo.com/showme.aspx?keyword=\u{a}"))))
 (assert (not (str.in_re X (re.++ ((_ re.loop 1 1) (str.to_re "0")) ((_ re.loop 1 1) (re.union (str.to_re "1") (str.to_re "9"))) ((_ re.loop 8 9) (re.range "0" "9")) (str.to_re "\u{a}")))))
 (check-sat)
+
+(exit)

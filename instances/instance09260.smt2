@@ -18,3 +18,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ (re.opt (re.range "0" "9")) (re.* (re.union (re.range "0" "9") (str.to_re ","))) (re.opt (str.to_re ".")) ((_ re.loop 1 2) (re.range "0" "9")) (str.to_re "\u{a}")))))
 (assert (not (str.in_re X (str.to_re "/searchfast/horoscope2libManager.dll^getFreeAccessBarHost:hostiedesksearch.dropspam.com\u{a}"))))
 (check-sat)
+
+(exit)

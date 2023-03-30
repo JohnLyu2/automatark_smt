@@ -18,3 +18,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "Subject:as.starware.com/dp/search?x=\u{a}")))
 (assert (not (str.in_re X (str.to_re "ProSpywww.emp3finder.comwww\u{a}"))))
 (check-sat)
+
+(exit)

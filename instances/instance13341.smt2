@@ -17,3 +17,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "Host:Host:User-Agent:Serverad.mokead.com\u{a}")))
 (assert (str.in_re X (re.++ (str.to_re "||") (re.* re.allchar) (str.to_re "/ig\u{a}http") (re.* re.allchar))))
 (check-sat)
+
+(exit)

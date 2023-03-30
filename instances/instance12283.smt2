@@ -19,3 +19,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "GamespyAttachedIndyReferer:ToolbarCurrent;CIA\u{a}")))
 (assert (not (str.in_re X (str.to_re "-i%3fUser-Agent:www.proventactics.com\u{a}"))))
 (check-sat)
+
+(exit)

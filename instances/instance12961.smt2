@@ -16,3 +16,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "actualnames.comclient.baigoo.comzzzvmkituktgr/etiexpsp2-InformationHost:\u{a}"))))
 (assert (not (str.in_re X (str.to_re "PcastPORT-config.180solutions.com\u{a}"))))
 (check-sat)
+
+(exit)

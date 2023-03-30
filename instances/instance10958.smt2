@@ -17,3 +17,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "libManager.dll^get\u{a}")))
 (assert (str.in_re X (str.to_re "<chat>\u{1b}Host:tid={\u{a}")))
 (check-sat)
+
+(exit)

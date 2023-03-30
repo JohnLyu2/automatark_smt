@@ -19,3 +19,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (str.to_re "/filename=") (re.* (re.comp (str.to_re "\u{a}"))) (str.to_re ".xpm/i\u{a}"))))
 (assert (str.in_re X (re.++ (re.range "1" "9") ((_ re.loop 3 3) (re.range "0" "9")) (re.opt (str.to_re " ")) (re.union (re.++ (re.union (re.range "a" "r") (re.range "t" "z") (re.range "A" "R") (re.range "T" "Z")) (re.union (re.range "a" "z") (re.range "A" "Z"))) (re.++ (re.union (str.to_re "s") (str.to_re "S")) (re.union (str.to_re "b") (str.to_re "c") (re.range "e" "r") (re.range "t" "x") (str.to_re "B") (str.to_re "C") (re.range "E" "R") (re.range "T" "X")))) (str.to_re "\u{a}"))))
 (check-sat)
+
+(exit)

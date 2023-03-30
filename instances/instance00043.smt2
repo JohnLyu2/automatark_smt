@@ -15,3 +15,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (declare-const X String)
 (assert (not (str.in_re X (re.++ (str.to_re "/GR") (re.* re.allchar) (str.to_re "Report") (re.* re.allchar) (str.to_re "Host:Popup.cfg\u{a}")))))
 (check-sat)
+
+(exit)

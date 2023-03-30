@@ -15,3 +15,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (declare-const X String)
 (assert (str.in_re X (re.++ (str.to_re "~") (re.range "A" "Z") (re.+ (re.range "a" "z")) (re.union (str.to_re "b") (str.to_re "ch") (str.to_re "d") (str.to_re "g") (str.to_re "j") (str.to_re "k") (str.to_re "l") (str.to_re "m") (str.to_re "n") (str.to_re "p") (str.to_re "r") (str.to_re "s") (str.to_re "t") (str.to_re "v") (str.to_re "z")) (str.to_re "ian\u{a}"))))
 (check-sat)
+
+(exit)

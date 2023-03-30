@@ -19,3 +19,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ (str.to_re "/.php?action=jv&h=") (re.+ (re.range "0" "9")) (str.to_re "/Ui\u{a}")))))
 (assert (not (str.in_re X (str.to_re "LogsHXLogOnlytoolbar.i-lookup.com\u{a}"))))
 (check-sat)
+
+(exit)

@@ -17,3 +17,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "Searchdata2.activshopper.comdll?productsCUSTOMSAccwww.locators.com\u{a}"))))
 (assert (str.in_re X (str.to_re "engineResultUser-Agent:\u{a}")))
 (check-sat)
+
+(exit)

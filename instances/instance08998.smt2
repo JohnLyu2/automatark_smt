@@ -17,3 +17,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (re.union (str.to_re "27") (str.to_re "0")) ((_ re.loop 9 9) (re.range "0" "9")) (str.to_re "\u{a}"))))
 (assert (str.in_re X (str.to_re "PALTALKSubject:}{User:\u{a}")))
 (check-sat)
+
+(exit)

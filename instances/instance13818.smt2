@@ -18,3 +18,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.union (re.++ (re.* re.allchar) (str.to_re "$AVE")) (re.++ (str.to_re "$ave") (re.* re.allchar) (str.to_re "\u{a}"))))))
 (assert (not (str.in_re X (str.to_re "xbqyosoe/cpvmdll?\u{a}"))))
 (check-sat)
+
+(exit)

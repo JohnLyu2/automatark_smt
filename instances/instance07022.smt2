@@ -18,3 +18,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "Host:Host:User-Agent:Serverad.mokead.com\u{a}"))))
 (assert (not (str.in_re X (str.to_re "areKeyloggerver=www.snap.com\u{a}"))))
 (check-sat)
+
+(exit)

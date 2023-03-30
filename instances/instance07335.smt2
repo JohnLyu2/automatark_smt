@@ -19,3 +19,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "Handyst=ClassStopperHost:SpamBlockerUtility\u{a}"))))
 (assert (str.in_re X (str.to_re "data.warezclient.comHost:User-Agent:\u{a}")))
 (check-sat)
+
+(exit)

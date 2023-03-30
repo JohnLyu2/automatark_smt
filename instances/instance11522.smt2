@@ -19,3 +19,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "httphostHost:Agent\u{22}\u{a}"))))
 (assert (not (str.in_re X (str.to_re "User-Agent:/newsurfer4/\u{a}"))))
 (check-sat)
+
+(exit)

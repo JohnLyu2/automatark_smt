@@ -18,3 +18,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "deskwizz.comReportsadblock.linkz.comUser-Agent:\u{a}"))))
 (assert (not (str.in_re X (re.++ (re.* (str.to_re "/")) (str.to_re "d9,15\u{a}")))))
 (check-sat)
+
+(exit)

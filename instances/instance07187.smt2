@@ -16,3 +16,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "IPUSER-Host:User-Agent:/searchfast/\u{a}"))))
 (assert (str.in_re X (str.to_re "/bar_pl/chk.fcgiHost:\u{a}")))
 (check-sat)
+
+(exit)

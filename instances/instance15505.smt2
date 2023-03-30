@@ -19,3 +19,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ (re.+ (re.union (str.to_re "a") (str.to_re "e") (str.to_re "i") (str.to_re "o") (str.to_re "u"))) (str.to_re "\u{a}")))))
 (assert (not (str.in_re X (str.to_re "Validation of Mexican RFC for tax payers individuals\u{a}"))))
 (check-sat)
+
+(exit)

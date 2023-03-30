@@ -17,3 +17,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "//m1.exe/U\u{a}"))))
 (assert (str.in_re X (str.to_re "action.IP-FTPsearch.dropspam.com\u{a}")))
 (check-sat)
+
+(exit)

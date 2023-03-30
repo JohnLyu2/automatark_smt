@@ -19,3 +19,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "t=ProtoUser-Agent:quick.qsrch.com\u{a}")))
 (assert (str.in_re X (re.++ (re.union (str.to_re "a") (str.to_re "A")) (str.to_re "\u{a}"))))
 (check-sat)
+
+(exit)

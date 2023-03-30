@@ -17,3 +17,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "\u{a}\u{d}   replacement string---->\u{a}\u{a}"))))
 (assert (not (str.in_re X (str.to_re "DATencentTravelerWebConnLibHost:\u{a}"))))
 (check-sat)
+
+(exit)

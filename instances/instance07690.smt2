@@ -17,3 +17,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (re.++ (str.to_re "Toolbar") (re.+ (re.union (re.range "0" "9") (re.range "A" "Z") (re.range "a" "z") (str.to_re "_"))) (str.to_re "SoftActivity\u{13}password;0;Incorrect\u{a}"))))
 (assert (str.in_re X (re.++ (str.to_re "&#x") (re.* (str.to_re "0")) (re.union (str.to_re "0") (str.to_re "1") (str.to_re "2") (str.to_re "3") (str.to_re "4") (str.to_re "5") (str.to_re "6") (str.to_re "7") (str.to_re "8") (str.to_re "B") (str.to_re "C") (str.to_re "E") (str.to_re "F") (str.to_re "10") (str.to_re "11") (str.to_re "12") (str.to_re "13") (str.to_re "14") (str.to_re "15") (str.to_re "16") (str.to_re "17") (str.to_re "18") (str.to_re "19") (str.to_re "1A") (str.to_re "1B") (str.to_re "1C") (str.to_re "1D") (str.to_re "1E") (str.to_re "1F")) (str.to_re ";\u{a}"))))
 (check-sat)
+
+(exit)

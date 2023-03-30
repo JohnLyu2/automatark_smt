@@ -18,3 +18,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (re.++ (str.to_re "Client") (re.+ (re.range "0" "9")) (str.to_re "Subject:isBysooTBwhenu.com\u{1b}Toolbar\u{a}")))))
 (assert (not (str.in_re X (re.++ (str.to_re "[b]") (re.+ (re.union (str.to_re "[") (str.to_re "]"))) (str.to_re "[/b]\u{a}")))))
 (check-sat)
+
+(exit)

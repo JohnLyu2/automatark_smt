@@ -18,3 +18,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "updates]%20[Port_NETObserve\u{a}")))
 (assert (not (str.in_re X (re.++ (str.to_re "\u{a}$") (re.opt (re.range "0" "9")) (re.opt (re.range "0" "9")) (re.+ (re.union (re.range "a" "z") (re.range "A" "Z")))))))
 (check-sat)
+
+(exit)

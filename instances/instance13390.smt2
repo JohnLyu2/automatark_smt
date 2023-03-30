@@ -17,3 +17,5 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "NETObserveSupervisorHost:websearch.drsnsrch.com\u{13}\u{a}")))
 (assert (not (str.in_re X (str.to_re "Controlsource%3Dultrasearch136%26campaign%3Dsnap\u{a}"))))
 (check-sat)
+
+(exit)
